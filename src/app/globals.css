@@ -5,6 +5,12 @@
   --foreground: #171717;
 }
 
+@layer utilities{
+.pause{
+  animation-play-state: paused;
+}
+}
+
 @font-face {
   font-family: 'Aeonik';
   src: url('../../public/fonts/aeonik-bold.woff2') format('woff2'),
@@ -89,4 +95,12 @@ body.scrolled .header {
   body.scrolled .header_logo svg {
     height: 38px;
   }
+}
+
+.font_apoc {
+  font-family: 'Apoc';
+}
+
+.font_aeonik {
+  font-family: 'Aeonik';
 }
